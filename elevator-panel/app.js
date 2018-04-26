@@ -17,7 +17,5 @@ $( "button" ).click(function() {
     //         }
     // }
 
-    
-
     $("#floor-number").text(target_floor);
   });

@@ -1,0 +1,71 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#box {
+    background-color: #d4d4d4;
+    margin-top: 0px;
+    height: 475px;
+    width: 325px;
+    position: absolute;
+    border: 5px solid black;
+    border-radius: 5px;
+}
+
+#screen {
+    background-color: black;
+    margin: 32.5px;
+    height: 210px;
+    width: 260px;
+    border-radius: 2px;
+    
+}
+
+#floor-number {
+    position: relative;
+    color: white;
+    top: 55px; 
+    left: 40px;
+    height: 90px;
+    font-size: 90px;
+}
+
+#green-light, #red-light {
+    height: 60px;
+    width: 60px;
+    position: relative;
+    left: 170px;
+}
+
+#green-light {
+    background-color: #6bbe44;
+    top: -63px
+}
+
+#red-light {
+    background-color: #ff0000;
+    top: -30px
+}
+
+button {
+    color: black;
+    font-size: 27px;
+    height: 70px;
+    width: 70px;
+    border: 5px solid black;
+    border-radius: 35px;
+    margin-bottom: 30px;
+}
+
+button:hover {
+    background-color: rgb(199, 193, 108);
+}
+
+#b3, #b1 {
+    margin-left: 30px;
+    margin-right: 50px;
+}
+
+#b4, #b2 {
+    margin-left: 70px;
+}
